@@ -1,0 +1,62 @@
+/* Add global styling here */
+
+/* Center content vertically and horizontally */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  /* Style for the counter container */
+  .counter-container {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #f7f7f7;
+    height: 300px;
+  }
+  
+  /* Style for counter value */
+  .counter-value {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  /* Style for buttons */
+  .button-container {
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .button {
+    padding: 8px 16px;
+    font-size: 16px;
+    margin: 8px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color:rgba(140, 23, 218, 0.753);
+    color: white;
+  }
+  
+  .button:hover {
+    background-color: rgba(162, 73, 221, 0.753);
+    transition: .4s;
+
+  }
+  .reset-button {
+  background-color: #dc3545;
+}
+
+.reset-button:hover {
+  background-color: #c82333;
+  transition: .4s;
+}
+span{
+    color: rgba(140, 23, 218, 0.753);
+}
